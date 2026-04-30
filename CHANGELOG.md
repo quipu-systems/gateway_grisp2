@@ -11,6 +11,18 @@ follows:
 3. Patch version updates are made for Buildroot minor releases, Erlang/OTP
    releases, and Linux kernel updates. They're also made to fix bugs and add
    features to the build infrastructure.
+4. Suffix `-gateway-XXX` is used to include modifications related to gateway
+   hardware needs.
+
+## v0.17.3-gateway-000
+
+Initial GRiSP2 release for Gateway hardware.
+
+ * Package updates
+   * Added Gateway hardware support
+   * Modified CI to release tags based on **gateway** label
+   * Updated README with step-by-step gateway instructions
+   * Added Gateway device name
 
 ## v0.17.3
 
